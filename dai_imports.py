@@ -3,6 +3,7 @@
 import torch
 import torchaudio
 import torchvision
+import torchmetrics
 from torch import mm
 import torch.nn as nn
 import torch.optim as optim
