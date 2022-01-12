@@ -150,7 +150,7 @@ def rgb_read(img, shape=None):
     if not path_or_str(img):
         return img
     if 'dng' in Path(img).suffix:
-        print('got dng')
+        # print('got dng')
         raw = rawpy.imread(img)
         img = str(Path(img).with_suffix('.jpg'))
         if not os.path.exists(img):
